@@ -1,0 +1,6 @@
+.carousel .slide{ background: none; }
+.carousel .slide h2 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+}

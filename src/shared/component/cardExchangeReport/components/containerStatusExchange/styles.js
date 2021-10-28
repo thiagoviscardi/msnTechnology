@@ -1,0 +1,46 @@
+import { makeStyles } from '@material-ui/core';
+
+export const useStyles = makeStyles(() => ({
+  status: {
+    display: ' flex',
+    justifyContent: 'center',
+    marginTop: 28,
+  },
+  statusCancel: {
+    width: '104px',
+    height: '32px',
+    borderRadius: '5px',
+    fontSize: '12px',
+    border: '2px solid #EB0000 ',
+    color: ' #EB0000',
+    marginLeft: 33,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  statusConfirm: {
+    width: '104px',
+    height: '32px',
+    borderRadius: '5px',
+    fontSize: '12px',
+    border: '2px solid #24B8EC ',
+    color: ' #24B8EC',
+    marginLeft: 35,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  statusWaiting: {
+    width: '132px',
+    height: '32px',
+    borderRadius: '5px',
+    fontSize: '12px',
+    border: '2px solid #787B80 ',
+    color: ' #787B80',
+    marginLeft: 43,
+    marginTop: 2,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+}));

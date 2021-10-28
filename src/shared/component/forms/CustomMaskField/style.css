@@ -1,0 +1,10 @@
+::placeholder {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #a2a5a8;
+}
+:focus {
+  border-color: #24b8ec;
+}

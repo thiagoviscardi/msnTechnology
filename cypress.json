@@ -1,0 +1,22 @@
+{
+  "baseUrl": "http://localhost:4000",
+  "projectId": "Plantao-V2",
+  "video": true,
+  "videoUploadOnPasses": false,
+  "pageLoadTimeout": 200000,
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "timeout":23200,
+  "viewportWidth": 1300,
+  "viewportHeight": 900,
+  "requestTimeout": 80000,
+  "numTestsKeptInMemory": 5,
+  "env": {
+    "email":"rafael@thinkidea.app",
+    "pass":"21031992",
+    "api_url": "http://localhost:4011",
+    "hospital_selecionado": "A Hospital de Testes ALTERADO"
+  }
+}

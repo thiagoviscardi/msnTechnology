@@ -1,0 +1,32 @@
+name: Deploy dev environment
+
+on:
+  push:
+    tags:
+      - v*
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Install dependencies
+        run: |
+          yarn
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.PLANTAOEXTRA_AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.PLANTAOEXTRA_AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+      - name: Build and deploy
+        run: yarn deploy
+      - name: Invalidade cloudfront cache
+        run: aws cloudfront create-invalidation --distribution-id E2ZJ1MKTGDN2F0 --paths "/*"

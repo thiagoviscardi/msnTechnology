@@ -1,0 +1,6 @@
+#fixed-tab {
+  z-index: 3;
+  background: #ededed;
+  width: 100%;
+  position: fixed;
+}

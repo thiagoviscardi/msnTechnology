@@ -1,0 +1,18 @@
+const appColors = {
+  PRIMARY_COLOR: '#24B8EC',
+  SECUNDARY_COLOR: '#0F83AD',
+  THIRD_COLOR: '#A2A5A8',
+  BACKGROUND_COLOR: '#EDEDED',
+  GRAY_TEXT_COLOR: '#505255',
+  DANGER: '#CE3C3E',
+  LIGHT_COLOR: 'rgba(81, 139, 129, 0.4)',
+  LIGHT_COLOR2: 'rgba(81, 139, 129, 0.2)',
+  COLOR_BUTTON: '#fff',
+  COLOR_ICON: 'rgba(90, 157, 106, 1)',
+  COLOR_BUTTON_MENU: '#fff',
+  MENU_COLOR: 'rgba(81, 139, 129, 0.4)',
+  SILENCE: '#505255',
+  CIRURGICAL: '#A2A5A8',
+};
+
+export default appColors;

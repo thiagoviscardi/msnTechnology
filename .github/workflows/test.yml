@@ -1,0 +1,60 @@
+name: Test
+
+on:
+  pull_request:
+    branches: [ dev, master ]
+
+
+jobs:
+
+  test:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v2
+    - name: Cache node modules
+      id: cache-primes
+      uses: actions/cache@v2
+      env:
+        cache-name: cache-node-modules
+      with:
+        path: node_modules
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-build-${{ env.cache-name }}-
+          ${{ runner.os }}-build-
+          ${{ runner.os }}-
+    
+    - name: Install dependencies
+      run: yarn
+
+    - name: Test Lint
+      run: yarn lint
+
+    - name: Start application
+      run: |
+        yarn start&
+        yarn config:sandbox
+        npx wait-on --timeout 180000 http://localhost:4000
+
+    - name: Test  
+      run: yarn cyrun:sandbox
+
+    - name: Upload Imagens
+      uses: actions/checkout@v2
+    - uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: Result e2e test
+        retention-days: 2
+        path: |
+          cypress/screenshots/
+          cypress/videos/
+
+          
+    - name: Download Images
+      uses: actions/checkout@v2
+    - uses: actions/download-artifact@v2
+      if: failure()
+      with:
+        name: Result Test
+        run: ls -R

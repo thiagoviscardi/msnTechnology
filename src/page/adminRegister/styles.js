@@ -9,7 +9,7 @@ export const useStyles = makeStyles(() => ({
     backgroundColor: appColors.BACKGROUND_COLOR,
   },
   registerTitle: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 18,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -22,7 +22,7 @@ export const useStyles = makeStyles(() => ({
     alignItems: 'center',
   },
   dataHospital: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -41,7 +41,7 @@ export const useStyles = makeStyles(() => ({
     flexDirection: 'column',
   },
   addSpecialty: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '14px',
     color: '#24B8EC',
     textTransform: 'none',

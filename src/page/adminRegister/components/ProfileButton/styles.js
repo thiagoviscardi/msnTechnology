@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const useStyles = makeStyles(() => ({
   logoText: {
     textAlign: 'center',
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 12,
     fontStyle: 'normal',
     fontWeight: 400,

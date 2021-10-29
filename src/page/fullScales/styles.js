@@ -163,7 +163,7 @@ export const useStyles = makeStyles((theme) => ({
     color: '#A2A5A8',
   },
   textHospital: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '18px',
     fontStyle: 'normal',
     fontHeight: 400,
@@ -198,7 +198,7 @@ export const useStyles = makeStyles((theme) => ({
     width: '72px',
     marginTop: 8,
     marginBottom: 8,
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -241,7 +241,7 @@ export const useStyles = makeStyles((theme) => ({
     marginTop: 8,
   },
   titleCard: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     fontStyle: 'normal',
     textAlign: 'left',
@@ -338,7 +338,7 @@ export const InputItem = styled.div`
 `;
 
 export const TypographyAfter = styled(Typography)`
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -346,7 +346,7 @@ export const TypographyAfter = styled(Typography)`
 `;
 
 export const TypographyBefore = styled(Typography)`
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

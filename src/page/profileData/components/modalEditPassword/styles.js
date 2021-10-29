@@ -26,7 +26,7 @@ export const useStyles = makeStyles(() => ({
     background: '#F5F5F5',
   },
   textModal: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '18px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -34,7 +34,7 @@ export const useStyles = makeStyles(() => ({
     paddingLeft: '32px',
   },
   subTitleModal: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 14,
     paddingLeft: '32px',
     marginBottom: 8,

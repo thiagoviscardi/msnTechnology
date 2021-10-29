@@ -298,7 +298,7 @@ export default function ModalDetails({
                             marginRight: 10,
                             color: '#8B8E93',
                             fontSize: 13,
-                            fontFamily: 'Poppins',
+                            fontFamily: 'Open Sans',
                           }}
                         >
                           <Tooltip
@@ -329,7 +329,7 @@ export default function ModalDetails({
                             marginRight: 10,
                             color: '#8B8E93',
                             fontSize: 13,
-                            fontFamily: 'Poppins',
+                            fontFamily: 'Open Sans',
                           }}
                         >
                           <Tooltip
@@ -418,7 +418,7 @@ export default function ModalDetails({
                               marginRight: 10,
                               color: '#8B8E93',
                               fontSize: 13,
-                              fontFamily: 'Poppins',
+                              fontFamily: 'Open Sans',
                             }}
                           >
                             <Tooltip
@@ -452,7 +452,7 @@ export default function ModalDetails({
                             style={{
                               color: '#8B8E93',
                               fontSize: 13,
-                              fontFamily: 'Poppins',
+                              fontFamily: 'Open Sans',
                             }}
                           >
                             <Tooltip

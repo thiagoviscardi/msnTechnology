@@ -10,7 +10,7 @@ export const useStyles = makeStyles(() => ({
   textColor: {
     height: '24px',
     width: '160px',
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 15,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -20,7 +20,7 @@ export const useStyles = makeStyles(() => ({
   textAtuation: {
     height: '24px',
     width: '224px',
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 15,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -29,7 +29,7 @@ export const useStyles = makeStyles(() => ({
   textName: {
     height: '24px',
     width: '224px',
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 15,
     fontStyle: 'normal',
     fontWeight: 400,

@@ -19,13 +19,13 @@ export const useStyles = makeStyles(() => ({
     borderRadius: 30,
   },
   detailsTextName: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     marginTop: 16,
     fontSize: 18,
     color: '#505255',
   },
   detailsTextGroup: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     marginTop: 8,
     fontSize: 14,
     color: '#505255',
@@ -37,7 +37,7 @@ export const useStyles = makeStyles(() => ({
     width: '176px',
   },
   detailsTextCompany: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     marginTop: 8,
     fontSize: 12,
     color: '#A2A5A8',
@@ -47,7 +47,7 @@ export const useStyles = makeStyles(() => ({
     height: 24,
   },
   seeMore: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 14,
     color: '#24B8EC',
     textTransform: 'none',
@@ -80,14 +80,14 @@ export const useStyles = makeStyles(() => ({
   textTitle: {
     fontSize: '16px',
     marginBottom: '10px',
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     alignItems: 'center',
     justifyContent: 'center',
     color: '#505255',
   },
   textTitleHour: {
     fontSize: '12px',
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     alignItems: 'center',
     justifyContent: 'center',
     color: '#A2A5A8',
@@ -105,17 +105,17 @@ export const useStyles = makeStyles(() => ({
     marginLeft: 2,
   },
   textHourForecast: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     color: '#A2A5A8',
   },
   textHourWork: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     color: '#24B8EC',
   },
   titleModal: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     fontweight: 400,
     color: '#505255',
@@ -152,7 +152,7 @@ export const useStyles = makeStyles(() => ({
     marginBottom: 3,
   },
   textWorkHour: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     color: '#A2A5A8',
   },
@@ -181,14 +181,14 @@ export const ModalContainer = styled(Paper)`
 `;
 
 export const PrevistTime = styled.div`
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 12px;
   font-style: normal;
   color: ${appColors.CIRURGICAL};
 `;
 
 export const WorkedHours = styled.div`
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 12px;
   font-style: normal;
   color: ${appColors.PRIMARY_COLOR};

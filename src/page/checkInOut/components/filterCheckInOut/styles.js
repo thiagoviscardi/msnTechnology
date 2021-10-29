@@ -24,7 +24,7 @@ export const useStyles = makeStyles(() => ({
     margin: 0,
   },
   statusTitle: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 12,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -82,11 +82,11 @@ export const useStyles = makeStyles(() => ({
   },
   filterText: {
     fontSize: '12px',
-    fontFamily: 'Poppin',
+    fontFamily: 'Open Sans',
   },
   clearAllText: {
     fontSize: '12px',
-    fontFamily: 'Poppin',
+    fontFamily: 'Open Sans',
     color: '#A2A5A8',
   },
   leftContainer: {

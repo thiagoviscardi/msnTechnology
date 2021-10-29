@@ -15,7 +15,7 @@ export const useStyles = makeStyles(() => ({
   },
   textStatus: {
     width: 175,
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -42,7 +42,7 @@ export const useStyles = makeStyles(() => ({
   },
 
   pageNumber: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,

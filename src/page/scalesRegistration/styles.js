@@ -157,7 +157,7 @@ export const DefaultContainer = styled.div`
 `;
 
 export const TypographyAfter = styled(Typography)`
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -165,7 +165,7 @@ export const TypographyAfter = styled(Typography)`
 `;
 
 export const TypographyBefore = styled(Typography)`
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

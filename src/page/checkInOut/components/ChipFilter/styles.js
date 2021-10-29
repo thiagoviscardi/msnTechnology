@@ -12,7 +12,7 @@ export const useStyles = makeStyles(() => ({
   },
   filterName: {
     margin: '0px 5px 0px 0px',
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 12,
     fontStyle: 'normal',
     fontWeight: 400,

@@ -13,7 +13,7 @@ export const useStyles = makeStyles(() => ({
     boxShadow: '0px 1px 2px rgba(80, 82, 85, 0.1)',
   },
   title: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 12,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -23,14 +23,14 @@ export const useStyles = makeStyles(() => ({
     minHeight: 100,
   },
   scaleName: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,
     color: '#505255',
   },
   grayTextDetail: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,

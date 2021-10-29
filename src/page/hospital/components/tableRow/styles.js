@@ -7,7 +7,7 @@ export const useStyles = makeStyles(() => ({
     alignItems: 'center',
   },
   detailsTypes: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 12,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -15,7 +15,7 @@ export const useStyles = makeStyles(() => ({
     color: '#BBBDBF',
   },
   specialty: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -24,7 +24,7 @@ export const useStyles = makeStyles(() => ({
     marginLeft: 12,
   },
   docsText: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -40,7 +40,7 @@ export const useStyles = makeStyles(() => ({
   textName: {
     height: '24px',
     width: '392px',
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 14,
     fontStyle: 'normal',
     fontWeight: 400,

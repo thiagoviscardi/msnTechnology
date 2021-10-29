@@ -10,7 +10,7 @@ export const useStyles = makeStyles(() => ({
     marginRight: 24,
   },
   cancelText: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -32,14 +32,14 @@ export const useStyles = makeStyles(() => ({
     textTransform: 'none',
   },
   registerText: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,
     color: '#0F83AD',
   },
   saveText: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,

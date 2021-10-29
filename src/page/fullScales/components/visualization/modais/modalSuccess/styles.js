@@ -19,7 +19,7 @@ export const useStyles = makeStyles(() => ({
   },
 
   textModal: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '20px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -42,7 +42,7 @@ export const useStyles = makeStyles(() => ({
   },
 
   subTextModal: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     color: '#A2A5A8',
     fontSize: '16px',
     fontStyle: 'normal',

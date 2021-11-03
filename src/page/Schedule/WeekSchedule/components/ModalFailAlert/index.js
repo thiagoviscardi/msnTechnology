@@ -68,7 +68,7 @@ export function ModalResponseAlert({
             justifyContent: 'center',
             textAlign: 'center',
             color: '#505255',
-            fontFamily: 'Poppins',
+            fontFamily: 'Open Sans',
           }}
         >
           {subtitle}

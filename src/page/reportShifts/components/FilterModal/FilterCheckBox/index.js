@@ -10,7 +10,7 @@ import { makeStyles, withStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(() => ({
   label: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontStyle: 'normal',
     fontWeight: 400,
     fontSize: 12,

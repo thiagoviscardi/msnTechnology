@@ -6,14 +6,14 @@ export const useStyles = makeStyles(() => ({
     alignItems: 'center',
   },
   userName: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,
     margin: 0,
   },
   specialty: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 12,
     fontStyle: 'normal',
     fontWeight: 400,

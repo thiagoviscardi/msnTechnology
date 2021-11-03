@@ -51,7 +51,7 @@ export const useStyles = makeStyles(() => ({
     textTransform: 'none',
   },
   registerText: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 12,
     fontStyle: 'normal',
     fontWeight: 400,

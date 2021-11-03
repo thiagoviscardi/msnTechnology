@@ -7,7 +7,7 @@ export const ContainerFormModal = styled.div`
 
 export const Legend = styled.div`
   //styleName: Buttons Desktop / BTN3;
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 12px;
   font-style: normal;
   font-weight: 400;

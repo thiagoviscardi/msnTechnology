@@ -53,7 +53,7 @@ export function ModalConfirmSchedule({
             justifyContent: 'center',
             textAlign: 'center',
             color: '#505255',
-            fontFamily: 'Poppins',
+            fontFamily: 'Open Sans',
           }}
         >
           {messageTitleAlert}

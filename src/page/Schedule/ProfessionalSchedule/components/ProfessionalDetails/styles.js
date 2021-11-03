@@ -46,7 +46,7 @@ export const TitleDate = styled.div`
   margin: 0px 10px;
 
   //styleName: Subtitles Desktop / Subtitle 1;
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -66,7 +66,7 @@ export const ProfessionalName = styled.div`
   margin-top: 24px;
 
   //styleName: Headers Desktop / Heading 5;
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -100,7 +100,7 @@ export const CompanyName = styled.div`
   padding: 3px;
 
   //styleName: Subtitles Desktop / Subtitle 3;
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -114,7 +114,7 @@ export const UnitName = styled.div`
   margin-top: 8px;
 
   //styleName: Subtitles Desktop / Subtitle 3;
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -128,7 +128,7 @@ export const ScaleName = styled.div`
   margin-top: 40px;
 
   //styleName: Subtitles Desktop / Subtitle 3;
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -142,7 +142,7 @@ export const TitleCheckin = styled.div`
   margin-top: 32px;
 
   //styleName: Subtitles Desktop / Subtitle 3;
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -156,7 +156,7 @@ export const TitleCheckout = styled.div`
   margin-top: 24px;
 
   //styleName: Subtitles Desktop / Subtitle 3;
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -170,7 +170,7 @@ export const Time = styled.div`
   margin-top: 8px;
 
   //styleName: Subtitles Desktop / Subtitle 1;
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

@@ -13,7 +13,7 @@ export const useStyles = makeStyles(() => ({
     borderRadius: 30,
   },
   detailsText: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     marginBottom: '20px',
   },
@@ -33,7 +33,7 @@ export const useStyles = makeStyles(() => ({
   textTitle: {
     fontSize: '12px',
     marginBottom: '6px',
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     alignItems: 'center',
     justifyContent: 'center',
     color: '#A2A5A8',
@@ -45,7 +45,7 @@ export const useStyles = makeStyles(() => ({
     borderRadius: 30,
   },
   titleModal: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     fontweight: 400,
     color: '#505255',

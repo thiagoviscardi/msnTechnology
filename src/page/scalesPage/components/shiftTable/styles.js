@@ -49,7 +49,7 @@ export const useStyles = makeStyles(() => ({
     width: '72px',
     marginTop: 8,
     marginBottom: 8,
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     fontStyle: 'normal',
     fontWeight: 400,
@@ -114,7 +114,7 @@ export const useStyles = makeStyles(() => ({
     marginTop: 8,
   },
   titleCard: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     fontStyle: 'normal',
     textAlign: 'left',

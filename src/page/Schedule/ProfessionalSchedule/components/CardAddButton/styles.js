@@ -28,7 +28,7 @@ export const useStyles = makeStyles(() => ({
     textAlign: 'center',
     color: '#A2A5A8',
     fontSize: 13,
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     textTransform: 'none',
     width: '100%',
   },

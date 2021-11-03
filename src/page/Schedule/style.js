@@ -29,7 +29,7 @@ export const useStyles = makeStyles(() => ({
 
   title: {
     color: '#505255',
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontStyle: 'normal',
     fontWeight: 'normal',
     fontSize: 36,

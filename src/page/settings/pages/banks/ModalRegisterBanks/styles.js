@@ -54,7 +54,7 @@ export const useStyles = makeStyles(() => ({
     backgroundColor: '#0F83AD',
     color: 'white',
     textTransform: 'none',
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 12,
     fontStyle: 'normal',
     fontWeight: 400,

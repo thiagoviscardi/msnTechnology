@@ -25,7 +25,7 @@ export const useStyles = makeStyles(() => ({
     background: '#0F83AD',
   },
   registerText: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 12,
     fontStyle: 'normal',
     fontWeight: 400,

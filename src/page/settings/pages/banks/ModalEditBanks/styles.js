@@ -51,7 +51,7 @@ export const ContainerFormModal = styled.div``;
 
 export const TitleModal = styled.div`
   flex: 1;
-  font-family: Poppins;
+  font-family: 'Open Sans';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;

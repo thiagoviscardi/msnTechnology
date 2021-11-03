@@ -9,7 +9,7 @@ export const useStyles = makeStyles(() => ({
     paddingLeft: 3,
   },
   headerText: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,
@@ -30,7 +30,7 @@ export const useStyles = makeStyles(() => ({
     textAlign: 'center',
   },
   pageNumber: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: 16,
     fontStyle: 'normal',
     fontWeight: 400,

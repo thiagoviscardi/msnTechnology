@@ -8,7 +8,7 @@ export const useStyles = makeStyles(() => ({
     backgroundColor: appColors.BACKGROUND_COLOR,
   },
   titleEscala: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '18px',
     fontStyle: 'normaS',
     fontWeight: 400,
@@ -54,7 +54,7 @@ export const useStyles = makeStyles(() => ({
     display: 'flex',
   },
   textRadio: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '18px',
     fontStyle: 'normaS',
     fontWeight: 400,
@@ -106,14 +106,14 @@ export const useStyles = makeStyles(() => ({
     height: '48px',
   },
   textValue: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     fontStyle: 'normal',
     fontWeight: 400,
     color: '#A2A5A8',
   },
   titleButton: {
-    fontFamily: 'Poppins',
+    fontFamily: 'Open Sans',
     fontSize: '12px',
     fontStyle: 'normal',
     fontWeight: 400,

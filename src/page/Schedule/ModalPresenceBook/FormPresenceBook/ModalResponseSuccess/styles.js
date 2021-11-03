@@ -33,14 +33,14 @@ export const useStyles = makeStyles(() => ({
     marginTop: '32px',
   },
   title: {
-    font: 'Poppins',
+    font: 'Open Sans',
     size: 18,
     marginBottom: 8,
     color: '#505255',
     fontWeight: 400,
   },
   sub_title: {
-    font: 'Poppins',
+    font: 'Open Sans',
     size: 12,
     marginBottom: 8,
     color: '#505255',
